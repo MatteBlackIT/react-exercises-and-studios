@@ -1,12 +1,22 @@
 .choresText {
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    color: rgb(255, 125, 250);
-   font-size: 35px;
+   font-size: 15px;
    font-style: italic;
 }
 
 .choresHeading {
    color: rgb(163, 125, 250);
    text-decoration: underline;
+   font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: italic;
    
 }
+
+.borderPatrol {
+   align-items: flex-start;
+   border: solid rgb(20, 215, 255) 1px;
+   margin: 15px 600px;
+
+ }

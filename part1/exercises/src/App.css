@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  text-align: left;
+  align-items: flex-start;
+  
 }
 
 .App-logo {
@@ -40,4 +42,7 @@
 .similarComponents {
   display:flex;
 justify-content:space-between;
+
+
 }
+
