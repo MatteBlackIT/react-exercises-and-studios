@@ -3,10 +3,10 @@ import classes from './MovieList.module.css';
 
 class MovieList extends React.Component {
    render() {
-      const movies = ["Pride and Prejudice", "Howl's Moving Castle", "Black Panther", "Black Panther 2", "Starwars"];
+      const movies = ["Black Panther", "Black Panther 2", "Starwars: ROTS", "N/A", "N/A"];
       return (
       <div>
-         <h3 className = {classes.movieHeading}>Movies I Watched This Month</h3>
+         <h3 className = {classes.movieHeading}>Favorite Movies</h3>
          <ol>
             <li className={classes.movieText}>{movies[0]}</li>
             <li className={classes.movieText}>{movies[1]}</li>
