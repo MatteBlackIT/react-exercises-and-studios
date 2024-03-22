@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://www.brianlagerstrom.com/recipes/the-absolute-best-chocolate-chip-cookies";
+   let authorPhoto = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHJPENWjP9SiBu0abLkpSd9_RYXzKe4F6SLapuMVVotRPc_XZ4";
+   let authorName = "Brian Lagerstrom";
 
    return (
       <div>
@@ -17,7 +17,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["butter", "sugar", "vanilla Extract", "eggs", "chocolate"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -36,8 +36,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
-            <p></p>
+            <h1>Cookie</h1>
+            <p>COOOOKIE</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -49,7 +49,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://sallysbakingaddiction.com/wp-content/uploads/2013/02/peanut-butter-chocolate-swirl-cookies-2.jpg" alt="" className="Cookie"/>
    );
 }
 
